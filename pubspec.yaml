@@ -1,6 +1,6 @@
 name: conditional_builder_null_safety
 description: Show UI elements according for conditional type and supports null safety
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/HamadaAllipy/conditonal_builder_null_safety
 
 environment:

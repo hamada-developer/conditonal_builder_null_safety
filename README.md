@@ -6,7 +6,7 @@ Show UI elements according for conditional type and supports null safety
 
 ```yaml
 dependencies:
-  conditional_builder_null_safety: ^0.0.3
+  conditional_builder_null_safety: ^0.0.4
 ```
 
 ## import this package

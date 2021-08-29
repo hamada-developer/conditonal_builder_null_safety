@@ -6,7 +6,7 @@ Show UI elements according for conditional type and supports null safety
 
 ```yaml
 dependencies:
-  conditional_builder_null_safety: ^0.0.2
+  conditional_builder_null_safety: ^0.0.3
 ```
 
 ## import this package
@@ -30,7 +30,7 @@ import 'package:conditional_builder_null_safety/conditional_builder_null_safety.
   }
 ```
 
-<img src="screenshot/Screenshot_2.jpg" width="200"/>
+<img src="Screenshot_2.jpg" width="200"/>
 
 *If the condition is ***not true*** or ***false***, will be ***fallback*** executed*
 ```dart
@@ -46,7 +46,7 @@ import 'package:conditional_builder_null_safety/conditional_builder_null_safety.
   }
 ```
 
-<img src="screenshot/Screenshot_3.jpg" width="200"/>
+<img src="Screenshot_3.jpg" width="200"/>
 
 *you can set ***fallback is null*** don't worry it is return a empty container*
 ```dart
@@ -61,7 +61,7 @@ import 'package:conditional_builder_null_safety/conditional_builder_null_safety.
     );
   }
 ```
-<img src="screenshot/Screenshot_1.jpg" width="200"/>
+<img src="Screenshot_1.jpg" width="200"/>
 
 This project is a starting point for a Dart
 [package](https://flutter.dev/developing-packages/),

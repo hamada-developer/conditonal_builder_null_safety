@@ -1,6 +1,6 @@
 # conditional_builder_null_safety
 
-Show UI elements according for conditional type and supports null safety
+This is package its purpose show UI elements according for conditional type and supports null safety
 
 ## Getting Started
 

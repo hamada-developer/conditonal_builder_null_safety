@@ -1,5 +1,7 @@
 library conditional_builder_null_safety;
 
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
 class ConditionalBuilder extends StatelessWidget {
@@ -21,4 +23,10 @@ class ConditionalBuilder extends StatelessWidget {
       : fallback != null
           ? fallback!(context)
           : Container();
+
+  // generate random between minimum and maximum
+  int generateRandom({
+    required int min,
+    required int max,
+  }) => min + Random.secure().nextInt(max - min);
 }

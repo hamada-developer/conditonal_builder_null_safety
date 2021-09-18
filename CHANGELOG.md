@@ -14,3 +14,7 @@
 ## 0.0.5
 
 *  add a new function.
+
+## 0.0.6
+
+*  add a new function.

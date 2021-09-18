@@ -25,8 +25,7 @@ class ConditionalBuilder extends StatelessWidget {
           : Container();
 
   // generate random between minimum and maximum
-  int generateRandom({
-    required int min,
-    required int max,
-  }) => min + Random.secure().nextInt(max - min);
+  int generateRandom({required int min, required int max,}) {
+    return min + Random.secure().nextInt(max - min);
+  }
 }

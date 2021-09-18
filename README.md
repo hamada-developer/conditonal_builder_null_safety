@@ -63,6 +63,14 @@ import 'package:conditional_builder_null_safety/conditional_builder_null_safety.
 ```
 <img src="https://github.com/HamadaAllipy/conditonal_builder_null_safety/blob/version_0.0.3/Screenshot_1.jpg" width="200"/>
 
+
+ add a new function **generateRandom(int min, int max);** its return int , create random number between minimum and maximum
+ ```dart
+ int random = generateRandom(10 , 100);
+//output 99 or 47 or 11 or else number 
+ ```
+
+
 This project is a starting point for a Dart
 [package](https://flutter.dev/developing-packages/),
 a library module containing code that can be shared easily across
